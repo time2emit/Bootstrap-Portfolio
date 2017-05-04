@@ -28,38 +28,50 @@
   
   <div id="main-container" class="container" class="row">
     <section class="main-section">
+      <div class="row" class="col-md-12">
       <h1>Contact</h1>
+        </div>
       <form id="contact-form">
         <ul>
+        <div class="row" class="col-md-12">
           <li>
             <label for="name">Name</label>
             <input type="text" id="name" name="name" placeholder="Your Very Own Personal Name" required="required">
           </li>
+        </div>
+        <div class="row" class="col-md-12">
           <li>
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
           </li>
+        </div>
+        <div class="row" class="col-md-12">
           <li>
             <label for="message">Message</label>
             <textarea id="message" name="message" required="required"></textarea>
           </li>
+        </div>
         </ul>
-        <input type="submit">
+        <input type="submit" class="btn btn-default">
       </form>
     </section>
     
-    <section class="sidebar">
+    <section class="sidebar" class="col-md-4">
       <div id="connect">
+        <div class="row">
         <h2>Connect with Me</h2>
+        </div>
+        <div class="row">
         <a href="https://github.com/time2emit" target="_blank"><img src="assets/images/GitIcon.svg" class="social" alt="GitHub" /></a>
         <a href="https://www.linkedin.com" target="_blank"><img src="assets/images/LinkedInIcon.svg" class="social" alt="LinkedIn" /></a>
         <a href="https://stackoverflow.com/users/7864935/time2emit" target="_blank"><img src="assets/images/StackOverflowIcon.svg" class="social" alt="Stack Overflow" /></a>
+        </div>
       </div>
     </section>
   </div>
 
   <footer>
-    <div class="container">
+    <div class="container" class="row" class=col-md-12>
       Copyright &copy; 2017 Alexis Frank
     </div>
   </footer>
